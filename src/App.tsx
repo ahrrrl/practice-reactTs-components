@@ -1,5 +1,6 @@
 import './App.css';
 import ExDropdown from './exCompoenets/ExDropdown';
+import ExModals from './exCompoenets/ExModal';
 import './reset.css';
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       >
         overflow hidden이 있는 드롭다운의 부모 컴포넌트
         <ExDropdown />
+      </div>
+      <div>
+        <ExModals />
       </div>
     </>
   );

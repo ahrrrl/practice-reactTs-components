@@ -7,7 +7,7 @@ import {
   useCallback,
 } from 'react';
 import { createPortal } from 'react-dom';
-import './default.css';
+import './defaultStyle.css';
 
 interface DropdownContextType {
   open: boolean;
