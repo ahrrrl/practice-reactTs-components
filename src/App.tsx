@@ -1,5 +1,6 @@
 import './App.css';
 import ExDropdown from './exCompoenets/ExDropdown';
+import ExForm from './exCompoenets/ExForm';
 import ExModals from './exCompoenets/ExModal';
 import './reset.css';
 
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div>
         <ExModals />
+      </div>
+      <div>
+        <ExForm />
       </div>
     </>
   );
